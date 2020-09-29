@@ -1,6 +1,6 @@
 #The makeCacheMateic function
 #Define inverse
-makeCacheMatrix <- function(x = c(1:4, nrow=2, ncol=2)){
+makeCacheMatrix <- function(x = matrix()){
                m<-NULL
                set <- function(y) {
                        x <<- y
